@@ -69,3 +69,15 @@ print(5 + 4 * 10 // 2)
 iq = 190
 print(iq)
 
+
+
+
+
+############ EXPRESSIONS VS STATEMENTS ############
+iq = 100
+user_ago = iq/5
+#expression
+iq/5
+#statement
+user_ago = iq/5
+iq = 100
