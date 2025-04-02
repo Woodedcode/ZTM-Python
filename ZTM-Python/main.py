@@ -33,3 +33,31 @@ print(type(9.9+1.1))
 print(2 ** 3)
 print(5//4)
 print(5%4)
+
+
+############ MATH FUNCTIONS ############
+print(round(3.1))
+print(round(3.9))
+
+print(abs(-99))
+
+
+############ OPERATOR PRECEDENCE ############
+# ()
+# **
+# * /
+# + -
+print(20-3*4)
+print((20-3)+ 2 ** 2)
+
+# EXERCISE
+print((5 + 4) * 10 / 2)
+#45
+print(((5 + 4) * 10) / 2)
+#45
+print((5 + 4) * (10 / 2))
+#45
+print(5 + (4 * 10) / 2)
+#25
+print(5 + 4 * 10 // 2)
+#25
