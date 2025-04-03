@@ -3,7 +3,6 @@ print("Ryan Woods")
 name = input("What is your name?")
 print(' hellllloooooo ' + name)
 
-
 #Fundamental Data Types
 int 2+4
 float
