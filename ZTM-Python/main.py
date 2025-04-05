@@ -97,6 +97,27 @@ print(some_value)
 
 
 
+############ STRINGS ############
+type("Hello there!")
+
+username = "Ryan W"
+password = "secret"
+
+long_string = '''
+WOW
+0 0
+---
+'''
+
+print(long_string)
+
+first_name = "Ryan"
+last_name = "Woods"
+full_name = first_name +  ' ' + last_name
+print(full_name)
+
+
+
 
 
 
