@@ -165,6 +165,55 @@ print('Hi {new_name}. You are {new_age} years old!'.format(new_name="Annie", new
 
 
 
+############ STRING INDEXES ############
+selfish ='01234567'
+         #01234567
+print(selfish[0])
+print(selfish[7])
+# [start:stop]
+print(selfish[0:2])
+print(selfish[0:7])
+# [start:stop:stepover]
+print(selfish[0:8:1])
+
+
+
+
+
+
+
+############ IMMUTABILITY ############
+selfish ='01234567'
+         #01234567
+#selfish[start:stop:stepover]
+selfish = selfish + 8
+print(selfish)
+
+
+
+
+############ BUILT IN FUNCTIONS AND METHODS ############
+str()
+int()
+float()
+type()
+print()
+greet = 'helloooooo'
+print(greet[0:len(greet)])
+
+quote = 'to be or not to be'
+quote2 = quote.replace('be', 'me')
+print(quote.upper())
+print(quote.capitalize())
+print(quote.find('be'))
+print(quote.replace('be','me'))
+print(quote)
+print(quote2)
+
+
+
+
+
 
 
 
