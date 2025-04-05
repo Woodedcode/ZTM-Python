@@ -140,6 +140,30 @@ print(c)
 
 
 
+############ ESCAPE SEQUENCES ############
+weather = "It's sunny"
+weather = "It's \"kind of\" sunny"
+
+
+
+
+############ FORMATTED STRINGS ############
+'asdfasf'
+
+name = 'Ryan'
+age = 35
+
+print('hi ' + name)
+print('Hi ' + name + '. You are ' + str(age) + ' years old!')
+# f at the beginning for a formatted string
+print(f'Hi {name}. You are {age} years old!') #reccomended
+print('Hi {}. You are {} years old!'.format('Annie', 31))
+print('Hi {1}. You are {0} years old!'.format(name, age))
+print('Hi {new_name}. You are {new_age} years old!'.format(new_name="Annie", new_age=31))
+
+
+
+
 
 
 
