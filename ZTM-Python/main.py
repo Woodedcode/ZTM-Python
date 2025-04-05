@@ -3,6 +3,7 @@ print("Ryan Woods")
 name = input("What is your name?")
 print(' hellllloooooo ' + name)
 
+
 #Fundamental Data Types
 int 2+4
 float
@@ -84,15 +85,14 @@ iq = 100
 
 
 
-
-
-
-
-
-
-
-
-
+############ AUGMENTED ASSIGNMENT OPERATOR ############
+some_value = 5
+some_value += 2 #7
+print(some_value)
+some_value -= 2 #5
+print(some_value)
+some_value *= 2 #10
+print(some_value)
 
 
 
